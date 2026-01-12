@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <example.txt>
 
 int main(){
     FILE *file;
-    char filename[] = example.txt;
+    char filename[] = "example.txt";
     char data[150];
 
     file = fopen(filename, "r");
